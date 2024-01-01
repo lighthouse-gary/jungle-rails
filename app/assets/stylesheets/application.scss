@@ -112,3 +112,19 @@ form.button_to {
   color: #f38792 !important;
 }
 
+.line-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.line-item-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.item-details {
+  flex-grow: 1;
+}
